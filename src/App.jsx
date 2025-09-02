@@ -3,6 +3,7 @@ import Button from './components/Button';
 import Header from './components/Header'; 
 import Hero from './components/Hero';
 import Benefit from './components/Benefit';
+import Collaboration from './components/Collaboration';
 
 const App = () => {
 
@@ -13,7 +14,7 @@ const App = () => {
        <Header/>
        <Hero/>
        <Benefit/>
-     
+       <Collaboration/>
       </div>
       <ButtonGradient/>
     </>
