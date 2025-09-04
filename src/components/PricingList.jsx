@@ -19,7 +19,7 @@ const PricingList = () => {
                         )}
                     </div>
 
-                    <Button className='w-full mb-6' href={item.price ? '/pricing' : 'mailto:22065684@students.latrobe.edu.au'} >
+                    <Button className='w-full mb-6' href={item.price ? '#pricing' : 'mailto:22065684@students.latrobe.edu.au'} >
                         {item.price ? 'Get Started' : 'Contact Us'}
                     </Button>
 

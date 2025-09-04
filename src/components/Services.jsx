@@ -5,13 +5,13 @@ import { service1, service3, check } from '../assets';
 import { brainwaveServices, brainwaveServicesIcons } from '../constants';
 import Generating from './Generating';
 import service2 from '../assets/services/service-2.png';
-import {PhotoChatMessage,Gradient, VideoChatMessage, VideoBar} from '../design/Services';
+import { PhotoChatMessage, Gradient, VideoChatMessage, VideoBar } from '../design/Services';
 
 const Services = () => {
     return (
         <Section id='how-to-use'>
             <div className='container'>
-                <Heading title='Generative AI made for creators' text='Brainwave unlocks the potential of AI-powered applications' />
+                <Heading title='Generative AI made for creators' text='Spark.ai unlocks the potential of AI-powered applications' />
                 <div className='relative '>
                     <div className='relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem] '>
                         <div className='absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto'>
@@ -20,7 +20,7 @@ const Services = () => {
 
                         <div className='relative z-1 max-w-[17rem] ml-auto'>
                             <h4 className='h4 mb-4 '>Smartest AI</h4>
-                            <p className='body-2 mb-[3rem] text-n-3'>Brainwave unlocks the potential of AI-powered applications</p>
+                            <p className='body-2 mb-[3rem] text-n-3'>Spark.ai unlocks the potential of AI-powered applications</p>
                             <ul className='body-2'>
                                 {brainwaveServices.map((item, index) => (
                                     <li className='flex items-start py-4 border-t border-n-6' key={index}>
@@ -51,13 +51,13 @@ const Services = () => {
                                 <h4 className='h4 mb-4'>Video Generation</h4>
                                 <p className='body-2 mb-[2rem] text-n-3'>The world&apos;s most powerful video generation app</p>
                                 <ul className='flex items-center justify-between'>
-                                     {brainwaveServicesIcons.map((item, index) => (
-                                        <li key={index} className={`rounded-2xl flex items-center justify-center ${index === 2 ? 'w-[3rem] h-[3rem] p-[0.1rem] bg-conic-gradient rounded-2xl md:w-[4rem] md:h-[4rem]': 'flex w-10 h-10 bg-n-6 md:w-15 md:h-15'}`}>
+                                    {brainwaveServicesIcons.map((item, index) => (
+                                        <li key={index} className={`rounded-2xl flex items-center justify-center ${index === 2 ? 'w-[3rem] h-[3rem] p-[0.1rem] bg-conic-gradient rounded-2xl md:w-[4rem] md:h-[4rem]' : 'flex w-10 h-10 bg-n-6 md:w-15 md:h-15'}`}>
                                             <div className={index === 2 ? 'flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]' : ''}>
-                                                <img src={item} width={24} height={24} alt='item'/>
+                                                <img src={item} width={24} height={24} alt='item' />
                                             </div>
                                         </li>
-                                     ))}
+                                    ))}
                                 </ul>
                             </div>
 
